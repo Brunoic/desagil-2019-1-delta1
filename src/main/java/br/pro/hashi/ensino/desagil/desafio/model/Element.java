@@ -9,6 +9,11 @@ public class Element {
         this.col = col;
     }
 
+    void move(int rowShift, int colShift) {
+        row += rowShift;
+        col += colShift;
+    }
+
     public int getRow() {
         return row;
     }
@@ -16,4 +21,5 @@ public class Element {
     public int getCol() {
         return col;
     }
+
 }
